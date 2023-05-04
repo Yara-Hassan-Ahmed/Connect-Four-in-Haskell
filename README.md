@@ -3,17 +3,19 @@ This is a console-based implementation of the Connect Four game written in Haske
 
 # Usage
 To play the game, simply run the Main.hs file using the runhaskell command:
-    $ runhaskell Main.hs
+
+        $ runhaskell Main.hs
+
 The game will start, and each player will take turns entering the column number where they want to place their piece.
 
 # Project Structure
 The project consists of two main files: Board.hs and Main.hs.
 
   # Board.hs
-    This file defines a module Board that provides functions for creating and manipulating a Connect Four board game. The Board data type represents the game board as a list of lists of player values (Yara, Kamal, or None). It also includes the dimensions of the board as a tuple of row and column values. The module provides functions for checking the winner, making a move, and showing the board.
+   This file defines a module Board that provides functions for creating and manipulating a Connect Four board game. The Board data type represents the game board as a list of lists of player values (Yara, Kamal, or None). It also includes the dimensions of the board as a tuple of row and column values. The module provides functions for checking the winner, making a move, and showing the board.
 
   # Main.hs
-    This file contains the main game loop and user interface. It prompts the players to enter their moves and updates the board after each move. The play function is the main game loop, which continues until a player wins, the game is a draw, or the game is otherwise terminated.
+   This file contains the main game loop and user interface. It prompts the players to enter their moves and updates the board after each move. The play function is the main game loop, which continues until a player wins, the game is a draw, or the game is otherwise terminated.
 
 # Functions
 The following functions are available in the Board module:
